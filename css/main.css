@@ -1,0 +1,40 @@
+*{
+	box-sizing: border-box;
+}
+
+.titulo{
+	background-color: #233237;
+	padding: 20px;
+	color: white;
+}
+
+.toDo{
+	margin-top: 20px;
+}
+
+.toDoList{
+	margin-top: 20px;
+}
+
+#agregar{
+	background-color: #984B43;
+	color: white;	
+}
+
+.item{
+	background-color: #EAC67A;
+	margin-top: 5px;
+	color:black;
+	padding: 5px;
+}
+
+.crossed{
+	text-decoration: line-through;
+}
+
+@media screen and (max-width: 480px){
+	.toDoList{
+		overflow-y: scroll;
+		height: 150px;
+	}
+}
